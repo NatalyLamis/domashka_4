@@ -1,0 +1,73 @@
+@import url("reset.css");
+@import url(https://fonts.googleapis.com/css?family=Caveat:regular,500,600,700&display=swap);
+@font-face {
+    font-family: 'AmbassadoreType';
+    src: url('../fonts/AmbassadoreType.woff') format('woff2'),
+        url('../fonts/AmbassadoreType.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+    font-family: "Nunito";
+    font-size: 16px;
+    line-height: 1.2;
+}
+h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 4px;
+    color: rgb(145, 18, 44);
+}
+h2{
+    font-family: "AmbassadoreType";
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+}
+h3{
+    font-family: "AmbassadoreType";
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.reference{
+    font-size: 12px;
+}
+.menu{
+    font-style: italic;
+}
+.menu_list{
+    color: rgb(145, 18, 44);
+}
+p.quote{
+    font-family: "Caveat";
+    font-size: 24px;
+    color: blue;
+    text-align: center;
+    text-shadow: 2px 2px 2px #bfe161;
+    word-spacing: 0.1em;
+}
+[class*="_list"]{
+    text-indent: 2%;
+}
+.def{
+    font-style: italic;
+    text-align-last: left;
+}
+span{
+    color: darkblue;
+    font-style: italic;
+}
+.link{
+    text-decoration: underline;
+}
+[class*="_navigator"],
+.contacts{
+    font-family: "AmbassadoreType";
+    font-size: 18px;
+    text-align: right;
+    color: darkslateblue;
+}
