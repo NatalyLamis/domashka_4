@@ -42,13 +42,14 @@ h3{
 .menu_list{
     color: rgb(145, 18, 44);
 }
-p.quote{
+.quote{
     font-family: "Caveat";
     font-size: 24px;
     color: blue;
     text-align: center;
     text-shadow: 2px 2px 2px #bfe161;
     word-spacing: 0.1em;
+    line-height: 1;
 }
 [class*="_list"]{
     text-indent: 2%;
